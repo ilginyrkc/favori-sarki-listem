@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    flex-wrap: wrap; /* Birden fazla satıra yerleştirmek için */
+    gap: 1rem; /* Kartlar arasında boşluk bırakır */
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 0.25;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    gap: 1rem; /* Kartlar arasında yatay ve dikey boşluk */
+    flex-wrap: wrap; /* Kartlar yan yana sığmazsa alt satıra geçer */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f10d0d;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color:  #f10d0d;
+}
